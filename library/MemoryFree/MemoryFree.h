@@ -8,6 +8,12 @@
 #ifndef      MEMORY_FREE_H
 #define MEMORY_FREE_H
 
+#if ARDUINO >= 100
+ #include "Arduino.h"	  //all things wiring / arduino
+#else
+ #include "WProgram.h"
+#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
