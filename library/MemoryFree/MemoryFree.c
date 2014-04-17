@@ -5,7 +5,7 @@
  * returns the number of free RAM bytes
 */
 
-#include "WProgram.h"  
+
 #include "MemoryFree.h"
 
 extern unsigned int __data_start;
