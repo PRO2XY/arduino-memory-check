@@ -2,7 +2,9 @@ arduino-memory-check
 ====================
 
 Code from Pololu Forum
+
 checkMem.c - returns the number of bytes of free memory (RAM)
+
 Arduino Playground code (see below): http://www.arduino.cc/playground/Code/AvailableMemory
 
 
